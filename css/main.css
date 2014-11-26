@@ -24,7 +24,7 @@ core-toolbar#mainheader > * {
     color: #FFF;
 }
 div.content {
-    min-height: 540px;
+    min-height: 610px;
     background: #ddc;
     padding: 20px;
     font-family: "RobotoDraft", sans-serif;

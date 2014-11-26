@@ -1,0 +1,48 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/core-icons/core-icons.html">
+
+<polymer-element name="viorel-post-card">
+  <template>
+    <style>
+    :host {
+      display: block;
+      position: relative;
+      border: 1px solid #ccc;
+      background-color: white;
+      padding: 5px 10px;
+      width: 92%;
+      min-height: 60px;
+      margin-bottom: 10px;
+      font-size: 1.2rem;
+      font-weight: 300;
+    }
+    .card-header {
+      margin-bottom: 10px;
+    }
+    .card-header > h2 {
+      margin: 0;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    .card-header > span.company-title-text {
+      margin: 0;
+      font-size: 11px;
+      font-style: italic;
+    }
+     .card-header > span.vacant-detail-text {
+      margin: 0;
+      font-size: 12px;
+    }
+
+    </style>
+    <div class="card-header" layout vertical>
+      <h2>Titulo</h2>
+      <span class="company-title-text">Empresa</span>
+      <span class="vacant-detail-text">Proin iaculis enim mi, in malesuada quam facilisis a. Vivamus elementum lorem varius lectus venenatis gravida. Integer sed sagittis nunc. Proin purus odio, auctor vitae dolor quis, molestie auctor nunc. Nam orci justo, porta ut luctus vitae, dictum at purus.</span>
+    </div>
+    <content></content>
+  </template>
+  <script>
+  Polymer({});
+  </script>
+</polymer-element>
